@@ -1,0 +1,19 @@
+# steps:
+# * Choose news source (API or RSS for AI-related news) - done
+# * Fetch articles (with timeout + basic validation) - pending
+# * Add retry mechanism (handle temporary failures) - pending
+# * Clean + filter data (remove nulls, trim text, avoid duplicates) - pending
+# * Set up OpenAI model (keep model configurable) - done
+# * Design prompt (clear instructions for summarization) - done
+# * Generate summaries - done
+# * Handle non-text responses / edge cases - pending
+# * Format output (clean email body, readable structure) - done
+# * Send email (SMTP setup) - done
+# * Validate email success / failure - pending
+# * Store secrets in .env - done
+# * Add error handling (try/except with meaningful messages) - pending
+# * Add basic logging (even simple print logs) - pending
+# * Test locally (different scenarios: no news, API fail, etc.) - pending
+# * Deploy (PythonAnywhere or similar) - pending
+# * Schedule daily run - pending (need to be only done for 3 to 4 days though for testing)
+# * Push to GitHub (without .env) - done

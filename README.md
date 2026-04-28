@@ -47,13 +47,22 @@ It demonstrates real-world backend concepts like API integration, prompt enginee
 
 ## 🔑 Environment Variables
 Create a .env file and add:
+```
+NEWS_API_KEY=your_news_api_key 
+LLM_API_KEY=your_llm_api_key 
+GMAIL_SEND_USER_NAME=your_email 
+GMAIL_APP_PASSWORD=your_app_password 
+GMAIL_RECEIVE_USER_NAME=receiver_email
+```
 
-NEWS_API_KEY=your_news_api_key LLM_API_KEY=your_llm_api_key GMAIL_SEND_USER_NAME=your_email GMAIL_APP_PASSWORD=your_app_password GMAIL_RECEIVE_USER_NAME=receiver_email
 
 ---
 
 ## ▶️ Running the Project
-bash uv run main.py 
+```
+bash uv run main.py
+```
+ 
 (or use python main.py depending on your setup)
 
 ---
